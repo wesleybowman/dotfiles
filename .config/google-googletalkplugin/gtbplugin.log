@@ -1,0 +1,35 @@
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:001] Using Gtk2 toolkit
+[000:015] Starting client channel.
+[000:016] Warning(clientchannel.cc:436): Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:017] Warning(clientchannel.cc:411): Could not initiate GoogleTalkPlugin connection
+[000:017] GoogleTalkPlugin not running. Starting new process...
+[000:017] Warning(optionsfile.cc:47): Load: Could not open file, err=2
+[000:017] Warning(pluginutils.cc:251): Failed to get GoogleTalkPlugin path. Trying default.
+[000:019] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:020] Waiting for GoogleTalkPlugin to start...
+[001:103] Attempting to connect to GoogleTalkPlugin...
+[001:104] Read port file, port=56707
+[001:142] Initiated connection to GoogleTalkPlugin
+[001:195] Starting client channel.
+[001:195] Read port file, port=56707
+[001:197] Initiated connection to GoogleTalkPlugin
+[001:273] Socket connection established
+[001:274] ScheduleOnlineCheck: Online check in 5000ms
+[001:279] Socket connection established
+[001:279] ScheduleOnlineCheck: Online check in 5000ms
+[001:304] Got cookie response, socket is authorized
+[001:305] AUTHORIZED; socket handshake complete
+[001:309] F->C: ["fs",{"pr":"a"}]
+[001:309] Got cookie response, socket is authorized
+[001:309] AUTHORIZED; socket handshake complete
+[001:316] F->C: ["fs",{"pr":"a"}]
+[001:706] F->C: ["mf","mf4.0","4.0.1.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,16000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[107,"CN",1,0,48000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"}],"camDeviceName":"USB 2.0 UVC HD Webcam","caps":15,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":2301,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":10,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"machineModel":"Not available","remotingAssistanceAllowed":0,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"videoCodecs":[[99,"H264-SVC",640,360,30],[97,"H264",640,360,30],[98,"H263",640,360,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"}]}]
+[001:782] F->C: ["mf","mf4.0","4.0.1.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[109,"CELT",1,64000,32000],[110,"CELT",2,64000,32000],[9,"G722",1,64000,16000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[107,"CN",1,0,48000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"}],"camDeviceName":"USB 2.0 UVC HD Webcam","caps":15,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":2301,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":10,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30],[99,"H264-SVC",640,360,30],[97,"H264",640,360,30],[98,"H263",640,360,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"}],"vsVersion":1}]
+[001:788] F->C: ["connection-broadcast",{"type":"same-jid"},{"data":"wesley.bowman23@gmail.com","message-type":"requestCentralStates"}]
+[001:806] F->C: ["getdevicestate","15","0",["__default_device","HDA Intel PCH, ALC663 Analog - Default Audio Device","HDA Intel PCH, ALC663 Analog - Default Audio Device","HDA Intel PCH, ALC663 Analog - Front speakers","HDA Intel PCH, ALC663 Analog - 4.0 Surround output to Front and Rear speakers","HDA Intel PCH, ALC663 Analog - 4.1 Surround output to Front, Rear and Subwoofer speakers","HDA Intel PCH, ALC663 Analog - 5.0 Surround output to Front, Center and Rear speakers","HDA Intel PCH, ALC663 Analog - 5.1 Surround output to Front, Center, Rear and Subwoofer speakers","HDA Intel PCH, ALC663 Analog - 7.1 Surround output to Front, Center, Side, Rear and Woofer speakers"],"0",["__default_device","HDA Intel PCH, ALC663 Analog - Default Audio Device","HDA Intel PCH, ALC663 Analog - Default Audio Device","HDA Intel PCH, ALC663 Analog - Front speakers","HDA Intel PCH, ALC663 Analog - 4.0 Surround output to Front and Rear speakers","HDA Intel PCH, ALC663 Analog - 4.1 Surround output to Front, Rear and Subwoofer speakers","HDA Intel PCH, ALC663 Analog - 5.0 Surround output to Front, Center and Rear speakers","HDA Intel PCH, ALC663 Analog - 5.1 Surround output to Front, Center, Rear and Subwoofer speakers","HDA Intel PCH, ALC663 Analog - 7.1 Surround output to Front, Center, Side, Rear and Woofer speakers","HDA Intel PCH, ALC663 Digital - IEC958 (S/PDIF) Digital Audio Output"],"0",["USB 2.0 UVC HD Webcam"]]
+[006:296] HandleOnlineCheck: Starting check
+[006:296] HandleOnlineCheck: OK; current state: 3
+[006:296] HandleOnlineCheck: Starting check
+[006:296] HandleOnlineCheck: OK; current state: 3

@@ -1,0 +1,24 @@
+[000:000] [o1d12234-1] Listening for HELLO.
+[000:017] [o1d12234-2] Listening for HELLO.
+[001:292] [o1d12234-1] Client connected.
+[001:292] [o1d12234-1] Registered new shared memory segment at 100
+[001:358] [o1d12234-1] Sending rendering size change: 112x0
+[001:358] [o1d12234-1] Unmapping shared mem: 100
+[001:358] Created new pool buffer at 0x7ff006b02000, 57600 bytes
+[001:359] [o1d12234-1] Registered new shared memory segment at 101
+[001:571] [o1d12234-1] Sending rendering size change: 199x111
+[014:828] Error(naclhelpers.cc:170): nacl::ReceiveMessage failed : Connection reset by peer
+[014:828] Error(flutemessagelistener.cc:316): [o1d12234-1] Failure to receive datagrams.
+[014:861] [o1d12234-1] Client disconnected.
+[014:861] Created new pool buffer at 0x7ff006b11000, 230400 bytes
+[014:862] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Broken pipe
+[020:002] [o1d12234-3] Listening for HELLO.
+[020:005] [o1d12234-4] Listening for HELLO.
+[023:457] [o1d12234-4] Shutting down instance.
+[023:458] [o1d12234-4] Client disconnected.
+[023:458] [o1d12234-3] Shutting down instance.
+[023:459] [o1d12234-3] Client disconnected.
+[027:871] [o1d12234-1] Shutting down instance.
+[027:871] [o1d12234-1] Client disconnected.
+[027:872] [o1d12234-2] Shutting down instance.
+[027:872] [o1d12234-2] Client disconnected.
