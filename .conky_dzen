@@ -1,0 +1,19 @@
+# ~/.conky_bottom_dzen
+# Set to yes if you want Conky to be forked in the background
+background no
+out_to_console yes
+out_to_x no
+# Update interval in seconds
+update_interval 1
+
+TEXT
+^fg(\#008dd5) ^i(/home/wesley/.xmonad/dzen/arch_10x10.xbm) ^fg(\#FFFFFF)$kernel \
+^fg(\#008dd5) ^i(/home/wesley/.xmonad/dzen/cpu.xbm) ^fg(\#FFFFFF) ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% ${cpu cpu4}%\
+^fg(\#008dd5) ^i(/home/wesley/.xmonad/dzen/mem.xbm) ^fg(\#FFFFFF) ${mem}/${memmax} \
+^fg(\#008dd5) ^i(/home/wesley/.xmonad/dzen/bat_full_01.xbm) ^fg(\#FFFFFF)${battery_percent}% \
+^fg(\#008dd5) ${if_existing /proc/net/route wlp3s0} ^i(/home/wesley/.xmonad/dzen/wifi_01.xbm) \
+^fg(\#FFFFFF) ${wireless_essid wlp3s0} \
+^fg(\#00aa4a) ^i(/home/wesley/.xmonad/dzen/net_down_03.xbm) ${downspeedf wlp3s0} \
+^fg(\#ff3333) ^i(/home/wesley/.xmonad/dzen/net_up_03.xbm) ${upspeedf wlp3s0} \
+${endif} \
+^fg(\#FFFFFF)   ${time %a %b %d %H:%M}
