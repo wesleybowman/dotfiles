@@ -1,0 +1,13 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto -a -F'
+alias cp='rsync -avzP'
+alias irc='(urxvt -name irc -e irssi)&'
+alias sus='sudo systemctl suspend'
+
+PS1='[\u@\h \W]\$ '
